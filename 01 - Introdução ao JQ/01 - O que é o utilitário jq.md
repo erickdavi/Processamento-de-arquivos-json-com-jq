@@ -1,0 +1,5 @@
+# O que é o utilitário jq?
+
+O utilitário jq é uma ferramenta de linha de comando para processamento de dados JSON. Ele é usado para filtrar, extrair, transformar e manipular dados JSON de uma variedade de fontes, como arquivos, saídas de comando e dados transmitidos pela rede. O jq é projetado para ser uma ferramenta leve e de alta velocidade que pode lidar com grandes volumes de dados JSON com facilidade.
+
+A principal funcionalidade do jq é extrair informações específicas de arquivos JSON, como valores de chaves específicas ou subconjuntos de objetos JSON que atendam a determinados critérios de pesquisa. O jq também pode ser usado para transformar os dados JSON em diferentes formatos de saída, como CSV, XML, TSV e outros. Ele fornece uma maneira eficiente e flexível de trabalhar com dados JSON em ambientes de linha de comando e scripts
