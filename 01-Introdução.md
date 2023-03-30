@@ -111,37 +111,28 @@ Dado o arquivo 'dados.json'
 Filtre o arquivo **dados.json** para exibir todas as pessoas que moram em São Paulo.
 
 **Resolução:**
-```
-cat dados.json | jq '.pessoas[] | select(.cidade == "São Paulo")'
-```
+```cat dados.json | jq '.pessoas[] | select(.cidade == "São Paulo")'```
+
 ### Exercício 2:
 Filtre o arquivo **dados.json** para exibir o nome e o e-mail de todas as pessoas com mais de 25 anos.
 
 ***Resolução:***
-```
-cat dados.json | jq '.pessoas[] | select(.idade > 25) | {nome: .nome, email: .email}'
-```
+```cat dados.json | jq '.pessoas[] | select(.idade > 25) | {nome: .nome, email: .email}'```
 
 ### Exercício 3:
 Filtre o arquivo dados.json para exibir a lista de interesses de cada pessoa.
 
 **Resolução:**
-```
-cat dados.json | jq '.pessoas[].interesses'
-```
+```cat dados.json | jq '.pessoas[].interesses'```
 
 ### Exercício 4:
 Filtre o arquivo dados.json para exibir a soma das idades de todas as pessoas.
 
 **Resolução:**
-```
-cat dados.json | jq '[.pessoas[].idade] | add'
-```
+```cat dados.json | jq '[.pessoas[].idade] | add'```
 
 ### Exercício 5:
 Filtre o arquivo dados.json para exibir o nome, a cidade e o estado de todas as pessoas.
 
 **Resolução:**
-```
-cat dados.json | jq '.pessoas[] | {nome: .nome, cidade: .cidade, estado: .estado}'
-```
+```cat dados.json | jq '.pessoas[] | {nome: .nome, cidade: .cidade, estado: .estado}'```
