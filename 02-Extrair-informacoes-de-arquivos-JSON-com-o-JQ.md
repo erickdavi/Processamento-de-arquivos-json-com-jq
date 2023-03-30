@@ -156,7 +156,7 @@ Filtre os funcionários com idade maior do que 30 anos.
 
 ***Resolução:***
 ```
-$ jq '.[] | select(.idade > 30)' funcionarios.json
+jq '.[] | select(.idade > 30)' funcionarios.json
 ```
 
 #### Exercício 3:
@@ -164,7 +164,7 @@ Filtre os funcionários com cargo de "Analista de Sistemas".
 
 ***Resolução:***
 ```
-$ jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json
+jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json
 ```
 
 #### Exercício 4:
@@ -172,14 +172,14 @@ Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de
 
 ***Resolução:***
 ```
-$ jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json
+jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json
 ```
 #### Exercício 5:
 Selecione todos os funcionários que ganham mais de R$ 5000,00:
 
 **Resolução:**
 ```
- jq '.[] | select(.salario > 5000) funcionarios.json'
+jq '.[] | select(.salario > 5000) funcionarios.json'
 ```
 
 #### Exercício 6:
