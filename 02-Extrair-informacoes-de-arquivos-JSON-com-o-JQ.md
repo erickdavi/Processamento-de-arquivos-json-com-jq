@@ -174,7 +174,7 @@ Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de
 ```
 $ jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json
 ```
-### Exercício 5:
+#### Exercício 5:
 Selecione todos os funcionários que ganham mais de R$ 5000,00:
 
 **Resolução:**
@@ -182,7 +182,7 @@ Selecione todos os funcionários que ganham mais de R$ 5000,00:
  jq '.[] | select(.salario > 5000) funcionarios.json'
 ```
 
-### Exercício 6:
+#### Exercício 6:
 Selecione todos os funcionários que moram na cidade de São Paulo e que trabalham no setor de vendas:
 
 **Resolução:**
@@ -190,7 +190,7 @@ Selecione todos os funcionários que moram na cidade de São Paulo e que trabalh
 jq '.[] | select(.cidade == "São Paulo" and .setor == "Vendas")'funcionarios.json
 ```
 
-### Exercício 7:
+#### Exercício 7:
 Selecione todos os funcionários que moram na cidade do Rio de Janeiro ou que trabalham no setor de tecnologia:
 
 **Resolução:**
@@ -198,7 +198,7 @@ Selecione todos os funcionários que moram na cidade do Rio de Janeiro ou que tr
 jq '.[] | select(.cidade == "Rio de Janeiro" or .setor == "Tecnologia")' funcionarios.json
 ```
 
-### Exercício 8:
+#### Exercício 8:
 Selecione todos os funcionários que não têm CPF cadastrado:
 
 **Resolução:**
@@ -206,7 +206,7 @@ Selecione todos os funcionários que não têm CPF cadastrado:
 jq '.[] | select(.cpf == null)' funcionarios.json
 ```
 
-### Exercício 9:
+#### Exercício 9:
 Selecione todos os funcionários que têm menos de 30 anos e que trabalham no setor financeiro:
 
 **Resolução:**
@@ -214,7 +214,7 @@ Selecione todos os funcionários que têm menos de 30 anos e que trabalham no se
 jq '.[] | select(.idade < 30 and .setor == "Financeiro")' funcionarios.json
 ```
 
-### Exercício 10:
+#### Exercício 10:
 Selecione todos os funcionários que têm mais de 40 anos e que ganham mais de R$ 7000,00:
 
 **Resolução:**
