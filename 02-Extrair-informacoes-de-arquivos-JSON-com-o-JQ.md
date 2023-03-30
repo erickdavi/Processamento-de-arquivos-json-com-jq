@@ -172,7 +172,8 @@ Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de
 
 ***Resolução:***
 ```
-jq '.[] | select(.idade >= 30 and .idade <= 40 and ."profissão" == "Analista de Sistemas")' funcionarios.json```
+jq '.[] | select(.idade >= 30 and .idade <= 40 and ."profissão" == "Analista de Sistemas")' funcionarios.json
+```
 
 #### Exercício 5:
 Selecione todos os funcionários que ganham mais de R$ 5000,00:
