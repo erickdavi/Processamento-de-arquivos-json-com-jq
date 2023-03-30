@@ -6,7 +6,7 @@
 - Comandos básicos do JQ
 - Exercícios
 
-## Seção 2: Extrair informações de arquivos JSON com o JQ
+## Seção 2: Extraindo informações de arquivos JSON com o JQ
 - Comando "select" para filtrar dados JSON
 - Comando "map" para transformar dados JSON
 - Comando "sort" para classificar dados JSON
