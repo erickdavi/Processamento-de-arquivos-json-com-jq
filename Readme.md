@@ -7,7 +7,7 @@ Ao longo do repositório, cada sessão foi separada em uma pasta, facilitando o 
 Sinta-se à vontade para explorar os exemplos apresentados e experimentar com seus próprios arquivos JSON. Esperamos que este repositório seja útil para você em seus projetos e estudos relacionados a processamento de dados.
 
 ## Seções
-[Introdução ao JQ] (https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/tree/main/01%20-%20Introdu%C3%A7%C3%A3o%20ao%20JQ)
+[Introdução ao JQ](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/tree/main/01%20-%20Introdu%C3%A7%C3%A3o%20ao%20JQ)
 2. Extraindo informações de arquivos JSON com o JQ
 3. Operações avançadas com o JQ
 4. Integrando o JQ em fluxos de trabalho
