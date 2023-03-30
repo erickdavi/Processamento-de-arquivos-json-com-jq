@@ -8,10 +8,10 @@ Sinta-se à vontade para explorar os exemplos apresentados e experimentar com se
 
 ## Seções
 [Introdução ao JQ](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/tree/main/01%20-%20Introdu%C3%A7%C3%A3o%20ao%20JQ)<br>
-2. Extraindo informações de arquivos JSON com o JQ
-3. Operações avançadas com o JQ
-4. Integrando o JQ em fluxos de trabalho
-5. Dicas e truques do JQ
+Extraindo informações de arquivos JSON com o JQ<br>
+Operações avançadas com o JQ<br>
+Integrando o JQ em fluxos de trabalho<br>
+Dicas e truques do JQ<br>
 
 
 ## Introdução ao JQ
