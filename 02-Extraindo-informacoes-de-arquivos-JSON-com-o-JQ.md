@@ -345,6 +345,7 @@ Dao o seguinte arquivo 'clientes.json'
 
 #### Exercício 1:
 Utilize o comando map para extrair apenas os nomes dos clientes do arquivo clientes.json.
+
 ***Resolução:***
 ```
 jq 'map(.nome)' clientes.json
@@ -352,6 +353,7 @@ jq 'map(.nome)' clientes.json
 
 #### Exercício 2:
 Utilize o comando map para adicionar uma nova chave-valor desconto em cada objeto, onde o valor será o resultado do cálculo do desconto de 10% sobre o valor da compra.
+
 ***Resolução:***
 ```
 jq 'map(.desconto = (.valor * 0.1) | {nome, idade, cidade, produto, valor, data_ultima_compra, Interesses, desconto})' clientes.json
@@ -359,6 +361,7 @@ jq 'map(.desconto = (.valor * 0.1) | {nome, idade, cidade, produto, valor, data_
 
 #### Exercício 3:
 Utilize o comando map para renomear a chave produto para item.
+
 ***Resolução:***
 ```
 jq 'map(.item = .produto | del(.produto))' clientes.json
@@ -366,6 +369,7 @@ jq 'map(.item = .produto | del(.produto))' clientes.json
 
 #### Exercício 4:
 Utilize o comando map para filtrar apenas os clientes que moram em São Paulo.
+
 ***Resolução:***
 ```
 jq 'map(select(.cidade == "São Paulo"))' clientes.json
@@ -373,6 +377,7 @@ jq 'map(select(.cidade == "São Paulo"))' clientes.json
 
 #### Exercício 5:
 Utilize o comando map para calcular a média de idade dos clientes.
+
 ***Resolução:***
 ```
 jq 'map(.idade) | add / length' clientes.json
