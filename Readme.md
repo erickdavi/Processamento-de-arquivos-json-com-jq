@@ -1,3 +1,17 @@
+# Introdução
+Este repositório tem como objetivo fornecer exemplos práticos de como processar arquivos JSON utilizando a ferramenta JQ. Os exemplos apresentados aqui são voltados para pessoas que possuem conhecimento básico em programação e que desejam aprimorar suas habilidades em manipulação de dados.
+
+Ao longo do repositório, cada sessão foi separada em uma pasta, facilitando o acesso aos exemplos específicos de cada tópico. Além disso, cada pasta contém um arquivo README.md, que serve como introdução para a sessão, explicando de forma clara e objetiva o propósito da mesma.
+
+Sinta-se à vontade para explorar os exemplos apresentados e experimentar com seus próprios arquivos JSON. Esperamos que este repositório seja útil para você em seus projetos e estudos relacionados a processamento de dados.
+
+## Seções
+. Introdução ao JQ
+. Extraindo informações de arquivos JSON com o JQ
+. Operações avançadas com o JQ
+. Integrando o JQ em fluxos de trabalho
+. Dicas e truques do JQ
+
 # Processamento de arquivos json com jq
 ## Seção 1: Introdução ao JQ
 - O que é o utilitário jq?
