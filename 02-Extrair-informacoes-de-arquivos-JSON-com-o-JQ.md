@@ -4,7 +4,7 @@ Nesta seção do treinamento, vamos mergulhar fundo na extração de informaçõ
 
 ## Comando "select" para filtrar dados JSON:
 
-O comando "select" é um dos mais úteis do JQ para filtrar dados JSON. Ele permite que você selecione um subconjunto dos dados com base em um critério específico.
+O comando "select" é um dos mais úteis do JQ para filtrar dados JSON. Ele permite que você selecione um subconjunto dos dados com base em critérios específicos, por meio de operações condicionais e lógicas para filtrar dados JSON, tais como Operadores relacionais(<, <=, >, >=, ==, !=), lógicos( and, or, not), tipos de dados (.foo | type == "number") ou expressões regulares.
 
 O comando "select" usa a seguinte sintaxe básica:
 ```
@@ -37,31 +37,109 @@ Dado o arquivo **funcionarios.json**
 [
   {
     "nome": "João",
-    "idade": 27,
+    "idade": 35,
     "cidade": "São Paulo",
-    "profissao": "Engenheiro",
-    "salario": 6500
+    "profissão": "Analista de Sistemas",
+    "salario": 7000
   },
   {
     "nome": "Maria",
-    "idade": 35,
+    "idade": 27,
     "cidade": "Rio de Janeiro",
-    "profissao": "Médica",
-    "salario": 12000
+    "profissão": "Advogada",
+    "salario": 8000
   },
   {
     "nome": "Pedro",
     "idade": 42,
+    "cidade": "Belo Horizonte",
+    "profissão": "Engenheiro Civil",
+    "salario": 10000
+  },
+  {
+    "nome": "Julia",
+    "idade": 24,
+    "cidade": "Florianópolis",
+    "profissão": "Designer Gráfico",
+    "salario": 5500
+  },
+  {
+    "nome": "Ricardo",
+    "idade": 38,
+    "cidade": "Curitiba",
+    "profissão": "Gerente de Projetos",
+    "salario": 12000
+  },
+  {
+    "nome": "Fernanda",
+    "idade": 29,
     "cidade": "Porto Alegre",
-    "profissao": "Advogado",
-    "salario": 8500
+    "profissão": "Médica",
+    "salario": 15000
+  },
+  {
+    "nome": "Renato",
+    "idade": 31,
+    "cidade": "Salvador",
+    "profissão": "Arquiteto",
+    "salario": 9000
+  },
+  {
+    "nome": "Gabriela",
+    "idade": 26,
+    "cidade": "Recife",
+    "profissão": "Analista de Marketing",
+    "salario": 6000
+  },
+  {
+    "nome": "Luiz",
+    "idade": 45,
+    "cidade": "Brasília",
+    "profissão": "Professor Universitário",
+    "salario": 8000
+  },
+  {
+    "nome": "Mariana",
+    "idade": 28,
+    "cidade": "Natal",
+    "profissão": "Jornalista",
+    "salario": 7000
+  },
+  {
+    "nome": "Lucas",
+    "idade": 39,
+    "cidade": "Fortaleza",
+    "profissão": "Médico Veterinário",
+    "salario": 11000
+  },
+  {
+    "nome": "Carla",
+    "idade": 25,
+    "cidade": "Belém",
+    "profissão": "Desenvolvedora de Software",
+    "salario": 7500
+  },
+  {
+    "nome": "Rodrigo",
+    "idade": 33,
+    "cidade": "Manaus",
+    "profissão": "Gerente de TI",
+    "salario": 13000
   },
   {
     "nome": "Ana",
-    "idade": 22,
-    "cidade": "Belo Horizonte",
-    "profissao": "Estudante",
-    "salario": null
+    "idade": 30,
+    "cidade": "Porto Velho",
+    "profissão": "Psicóloga",
+    "salario": 6000
+  },
+  {
+    "nome": "Leonardo",
+    "idade": 36,
+    "cidade": "Cuiabá",
+    "profissão": "Engenheiro de Produção",
+    "salario": 950
+
   }
 ]
 ```
@@ -69,25 +147,33 @@ Dado o arquivo **funcionarios.json**
 Filtre os funcionários com idade igual a 30 anos.
 
 ***Resolução:***
-```$ jq '.[] | select(.idade == 30)' funcionarios.json```
+```
+jq '.[] | select(.idade == 30)' funcionarios.json
+```
 
 #### Exercício 2:
 Filtre os funcionários com idade maior do que 30 anos.
 
 ***Resolução:***
-```$ jq '.[] | select(.idade > 30)' funcionarios.json```
+```
+$ jq '.[] | select(.idade > 30)' funcionarios.json
+```
 
 #### Exercício 3:
 Filtre os funcionários com cargo de "Analista de Sistemas".
 
 ***Resolução:***
-```$ jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json```
+```
+$ jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json
+```
 
 #### Exercício 4:
 Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de Dados".
 
 ***Resolução:***
-```$ jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json```
+```
+$ jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json
+```
 
 ## Comando "map" para transformar dados JSON:
 ## Comando "sort" para classificar dados JSON:
