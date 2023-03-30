@@ -112,8 +112,8 @@ Filtre o arquivo **dados.json** para exibir todas as pessoas que moram em São P
 
 **Resolução:**
 ```
-jq '.pessoas[] | select(.cidade == "São Paulo") dados.json
-'```
+jq '.pessoas[] | select(.cidade == "São Paulo")' dados.json
+```
 
 ### Exercício 2:
 Filtre o arquivo **dados.json** para exibir o nome e o e-mail de todas as pessoas com mais de 25 anos.
