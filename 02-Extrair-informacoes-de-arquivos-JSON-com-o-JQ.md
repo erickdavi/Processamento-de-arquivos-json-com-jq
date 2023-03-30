@@ -160,67 +160,43 @@ jq '.[] | select(.idade > 30)' funcionarios.json
 ```
 
 #### Exercício 3:
-Filtre os funcionários com cargo de "Analista de Sistemas".
+Filtre os funcionários com a profissão "Professor Universitário".
 
 ***Resolução:***
 ```
-jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json
+jq '.[] | select(."profissão" == "Professor Universitário")' funcionarios.json
 ```
 
 #### Exercício 4:
-Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de Dados".
+Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de Sistemas".
 
 ***Resolução:***
 ```
-jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json
-```
+jq '.[] | select(.idade >= 30 and .idade <= 40 and ."profissão" == "Analista de Sistemas")' funcionarios.json```
+
 #### Exercício 5:
 Selecione todos os funcionários que ganham mais de R$ 5000,00:
 
 **Resolução:**
 ```
-jq '.[] | select(.salario > 5000) funcionarios.json'
+jq '.[] | select(.salario > 5000)' funcionarios.json
 ```
 
 #### Exercício 6:
-Selecione todos os funcionários que moram na cidade de São Paulo e que trabalham no setor de vendas:
+Selecione todos os funcionários que moram na cidade de Belém e que tem a profissão Desenvolvedora de Software
 
 **Resolução:**
 ```
-jq '.[] | select(.cidade == "São Paulo" and .setor == "Vendas")'funcionarios.json
+jq '.[] | select(.cidade == "Belém" and ."profissão" == "Desenvolvedora de Software")' funcionarios.json
 ```
 
 #### Exercício 7:
-Selecione todos os funcionários que moram na cidade do Rio de Janeiro ou que trabalham no setor de tecnologia:
+Selecione todos os funcionários que moram na cidade de São Paulo ou que o salário seja menor que 4000:
 
 **Resolução:**
 ```
-jq '.[] | select(.cidade == "Rio de Janeiro" or .setor == "Tecnologia")' funcionarios.json
-```
+jq '.[] | select(.cidade == "São Paulo" or .salario < 4000)' funcionarios.json```
 
-#### Exercício 8:
-Selecione todos os funcionários que não têm CPF cadastrado:
-
-**Resolução:**
-```
-jq '.[] | select(.cpf == null)' funcionarios.json
-```
-
-#### Exercício 9:
-Selecione todos os funcionários que têm menos de 30 anos e que trabalham no setor financeiro:
-
-**Resolução:**
-```
-jq '.[] | select(.idade < 30 and .setor == "Financeiro")' funcionarios.json
-```
-
-#### Exercício 10:
-Selecione todos os funcionários que têm mais de 40 anos e que ganham mais de R$ 7000,00:
-
-**Resolução:**
-```
-jq '.[] | select(.idade > 40 and .salario > 7000)' funcionarios.json
-```
 ## Comando "map" para transformar dados JSON:
 ## Comando "sort" para classificar dados JSON:
 ## Comando "group_by" para agrupar dados JSON:
