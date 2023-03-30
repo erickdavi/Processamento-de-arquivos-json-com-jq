@@ -6,4 +6,4 @@
 [Casos de uso do mundo real para o JQ](#)<br>
 [Exercícios práticos desafiadores](#)<br>
 [Suporte ao YAML no JQ](#)<br>
-Outras ferramentas relacionadas ao processamento de dados JSON](#)<br>
+[Outras ferramentas relacionadas ao processamento de dados JSON]](#)<br>
