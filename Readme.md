@@ -6,11 +6,11 @@ Ao longo do repositório, cada sessão foi separada em uma pasta, facilitando o 
 Sinta-se à vontade para explorar os exemplos apresentados e experimentar com seus próprios arquivos JSON. Esperamos que este repositório seja útil para você em seus projetos e estudos relacionados a processamento de dados.
 
 ## Seções
-. Introdução ao JQ
-. Extraindo informações de arquivos JSON com o JQ
-. Operações avançadas com o JQ
-. Integrando o JQ em fluxos de trabalho
-. Dicas e truques do JQ
+* Introdução ao JQ
+* Extraindo informações de arquivos JSON com o JQ
+* Operações avançadas com o JQ
+* Integrando o JQ em fluxos de trabalho
+* Dicas e truques do JQ
 
 # Processamento de arquivos json com jq
 ## Seção 1: Introdução ao JQ
