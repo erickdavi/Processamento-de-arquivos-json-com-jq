@@ -1,0 +1,84 @@
+[
+    {
+      "nome": "Isabela",
+      "idade": 22,
+      "cidade": "Curitiba",
+      "produto": "Vestido",
+      "valor": 95.0,
+      "data_ultima_compra": "2022-03-10",
+      "Interesses": ["Esportes", "Roupas", "Bebidas"]
+    },
+    {
+      "nome": "Lucas",
+      "idade": 30,
+      "cidade": "São Paulo",
+      "produto": "Camisa",
+      "valor": 50.0,
+      "data_ultima_compra": "2022-03-12",
+      "Interesses": ["Filmes", "Música", "Esportes"]
+    },
+    {
+      "nome": "Gabriela",
+      "idade": 27,
+      "cidade": "Rio de Janeiro",
+      "produto": "Calça",
+      "valor": 120.0,
+      "data_ultima_compra": "2022-03-05",
+      "Interesses": ["Viagens", "Gastronomia", "Arte"]
+    },
+    {
+      "nome": "Rodrigo",
+      "idade": 35,
+      "cidade": "Belo Horizonte",
+      "produto": "Tênis",
+      "valor": 200.0,
+      "data_ultima_compra": "2022-03-18",
+      "Interesses": ["Esportes", "Cinema", "Moda"]
+    },
+    {
+      "nome": "Laura",
+      "idade": 25,
+      "cidade": "Porto Alegre",
+      "produto": "Blusa",
+      "valor": 80.0,
+      "data_ultima_compra": "2022-03-07",
+      "Interesses": ["Música", "Literatura", "Arte"]
+    },
+    {
+      "nome": "Fernando",
+      "idade": 29,
+      "cidade": "São Paulo",
+      "produto": "Jaqueta",
+      "valor": 150.0,
+      "data_ultima_compra": "2022-03-20",
+      "Interesses": ["Esportes", "Gastronomia", "Moda"]
+    },
+    {
+      "nome": "Maria",
+      "idade": 33,
+      "cidade": "Belo Horizonte",
+      "produto": "Saia",
+      "valor": 60.0,
+      "data_ultima_compra": "2022-03-02",
+      "Interesses": ["Viagens", "Esportes", "Arte"]
+    },
+    {
+      "nome": "João",
+      "idade": 26,
+      "cidade": "Porto Alegre",
+      "produto": "Calça",
+      "valor": 100.0,
+      "data_ultima_compra": "2022-03-11",
+      "Interesses": ["Filmes", "Literatura", "Arte"]
+    },
+    {
+      "nome": "Luciana",
+      "idade": 24,
+      "cidade": "Curitiba",
+      "produto": "Vestido",
+      "valor": 120.0,
+      "data_ultima_compra": "2022-03-17",
+      "Interesses": ["Esportes", "Gastronomia", "Moda"]
+    },
+  ]
+  
