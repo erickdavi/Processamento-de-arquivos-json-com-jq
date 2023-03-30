@@ -1,0 +1,31 @@
+{
+  "pessoas": [
+    {
+      "nome": "João",
+      "idade": 25,
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "(11) 99999-1111",
+      "email": "joao@gmail.com",
+      "interesses": ["tecnologia", "futebol"]
+    },
+    {
+      "nome": "Maria",
+      "idade": 30,
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "telefone": "(21) 99999-2222",
+      "email": "maria@hotmail.com",
+      "interesses": ["cinema", "viagens"]
+    },
+    {
+      "nome": "Pedro",
+      "idade": 20,
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "telefone": "(31) 99999-3333",
+      "email": "pedro@yahoo.com",
+      "interesses": ["música", "esportes"]
+    }
+  ]
+}
