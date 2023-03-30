@@ -5,7 +5,7 @@ Nesta seção do treinamento, vamos mergulhar fundo na extração de informaçõ
 
 ## Seções:
 
-[Comando "select" para filtrar dados JSON](#)<br>
-[Comando "map" para transformar dados JSON](#)<br>
-[Comando "sort" para classificar dados JSON](#)<br>
-[Comando "group_by" para agrupar dados JSON](#)<br>
+[Comando "select" para filtrar dados JSON](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/blob/main/02%20-%20Extraindo%20informa%C3%A7%C3%B5es%20de%20arquivos%20JSON%20com%20o%20JQ/01%20-%20Comando%20select%20para%20filtrar%20dados%20JSON.md)<br>
+[Comando "map" para transformar dados JSON](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/blob/main/02%20-%20Extraindo%20informa%C3%A7%C3%B5es%20de%20arquivos%20JSON%20com%20o%20JQ/02%20-%20Comando%20map%20para%20transformar%20dados%20JSON.md)<br>
+[Comando "sort" para classificar dados JSON](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/blob/main/02%20-%20Extraindo%20informa%C3%A7%C3%B5es%20de%20arquivos%20JSON%20com%20o%20JQ/03%20-%20Comando%20sort%20para%20classificar%20dados%20JSON.md)<br>
+[Comando "group_by" para agrupar dados JSON](https://github.com/erickdavi/Processamento-de-arquivos-json-com-jq/blob/main/02%20-%20Extraindo%20informa%C3%A7%C3%B5es%20de%20arquivos%20JSON%20com%20o%20JQ/04%20-%20Comando%20group_by%20para%20agrupar%20dados%20JSON.md)<br>
