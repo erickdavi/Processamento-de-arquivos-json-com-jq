@@ -338,7 +338,7 @@ Dao o seguinte arquivo 'clientes.json'
     "valor": 120.0,
     "data_ultima_compra": "2022-03-17",
     "Interesses": ["Esportes", "Gastronomia", "Moda"]
-  },
+  }
 ]
 
 ```
