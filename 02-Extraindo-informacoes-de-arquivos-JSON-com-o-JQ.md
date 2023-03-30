@@ -350,20 +350,6 @@ Utilize o comando map para extrair apenas os nomes dos clientes do arquivo clien
 jq 'map(.nome)' clientes.json
 ```
 
-#### Exercício 1:
-Utilize o comando map para extrair apenas os nomes dos clientes do arquivo clientes.json.
-***Resolução:***
-```
-jq 'map(.nome)' clientes.json
-```
-
-#### Exercício 1:
-Utilize o comando map para extrair apenas os nomes dos clientes do arquivo clientes.json.
-***Resolução:***
-```
-jq 'map(.nome)' clientes.json
-```
-
 #### Exercício 2:
 Utilize o comando map para adicionar uma nova chave-valor desconto em cada objeto, onde o valor será o resultado do cálculo do desconto de 10% sobre o valor da compra.
 ***Resolução:***
