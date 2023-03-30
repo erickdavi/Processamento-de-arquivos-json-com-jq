@@ -30,6 +30,65 @@ select(.completed == true and .userId == 5) | .title arquivo.json
 
 Esses são apenas alguns exemplos do poderoso comando "select" do JQ. Experimente com diferentes expressões de filtro e combinações de comandos para explorar todas as possibilidades do JQ para manipulação de dados JSON.
 
+### Exercícios:
+
+Dado o arquivo **funcionarios.json** 
+```
+[
+  {
+    "nome": "João",
+    "idade": 27,
+    "cidade": "São Paulo",
+    "profissao": "Engenheiro",
+    "salario": 6500
+  },
+  {
+    "nome": "Maria",
+    "idade": 35,
+    "cidade": "Rio de Janeiro",
+    "profissao": "Médica",
+    "salario": 12000
+  },
+  {
+    "nome": "Pedro",
+    "idade": 42,
+    "cidade": "Porto Alegre",
+    "profissao": "Advogado",
+    "salario": 8500
+  },
+  {
+    "nome": "Ana",
+    "idade": 22,
+    "cidade": "Belo Horizonte",
+    "profissao": "Estudante",
+    "salario": null
+  }
+]
+```
+#### Exercício 1:
+Filtre os funcionários com idade igual a 30 anos.
+
+***Resolução:***
+```$ jq '.[] | select(.idade == 30)' funcionarios.json```
+
+#### Exercício 2:
+Filtre os funcionários com idade maior do que 30 anos.
+
+***Resolução:***
+```$ jq '.[] | select(.idade > 30)' funcionarios.json```
+
+#### Exercício 3:
+Filtre os funcionários com cargo de "Analista de Sistemas".
+
+***Resolução:***
+```$ jq '.[] | select(.cargo == "Analista de Sistemas")' funcionarios.json```
+
+#### Exercício 4:
+Filtre os funcionários com idade entre 30 e 40 anos e com cargo de "Analista de Dados".
+
+***Resolução:***
+```$ jq '.[] | select(.idade >= 30 and .idade <= 40 and .cargo == "Analista de Dados")' funcionarios.json```
+
 ## Comando "map" para transformar dados JSON:
 ## Comando "sort" para classificar dados JSON:
 ## Comando "group_by" para agrupar dados JSON:

@@ -1,0 +1,31 @@
+[
+    {
+      "nome": "João",
+      "idade": 27,
+      "cidade": "São Paulo",
+      "profissao": "Engenheiro",
+      "salario": 6500
+    },
+    {
+      "nome": "Maria",
+      "idade": 35,
+      "cidade": "Rio de Janeiro",
+      "profissao": "Médica",
+      "salario": 12000
+    },
+    {
+      "nome": "Pedro",
+      "idade": 42,
+      "cidade": "Porto Alegre",
+      "profissao": "Advogado",
+      "salario": 8500
+    },
+    {
+      "nome": "Ana",
+      "idade": 22,
+      "cidade": "Belo Horizonte",
+      "profissao": "Estudante",
+      "salario": null
+    }
+  ]
+  
