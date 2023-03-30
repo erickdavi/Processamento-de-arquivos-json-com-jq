@@ -196,7 +196,8 @@ Selecione todos os funcionários que moram na cidade de São Paulo ou que o sal�
 
 **Resolução:**
 ```
-jq '.[] | select(.cidade == "São Paulo" or .salario < 4000)' funcionarios.json```
+jq '.[] | select(.cidade == "São Paulo" or .salario < 4000)' funcionarios.json
+```
 
 ## Comando "map" para transformar dados JSON:
 ## Comando "sort" para classificar dados JSON:
